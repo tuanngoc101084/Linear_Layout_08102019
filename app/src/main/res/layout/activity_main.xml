@@ -1,18 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="0dp">
+       <TextView
+           android:textColor="#EDF5F3"
+           android:textSize="32dp"
+           android:gravity="center"
+           android:background="#f20"
+        android:layout_weight="1"
+        android:text="A"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+       <TextView
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+           android:textSize="32dp"
+           android:gravity="center"
+           android:textColor="#EDF5F3"
+           android:background="#0C913C"
+           android:layout_weight="1"
+           android:text="B"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           />
+       <TextView
+           android:textColor="#EDF5F3"
+           android:textSize="32dp"
+           android:gravity="center"
+           android:background="#58E61C"
+           android:layout_weight="1"
+           android:text="C"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           />
+       <TextView
+           android:textColor="#EDF5F3"
+           android:textSize="32dp"
+           android:gravity="center"
+           android:background="#072ADB"
+           android:layout_weight="1"
+           android:text="D"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:textColor="#EDF5F3"
+            android:textSize="32dp"
+            android:gravity="center"
+            android:background="#FFEB3B"
+            android:layout_weight="1"
+            android:text="A"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            />
+        <TextView
+
+            android:textSize="32dp"
+            android:gravity="center"
+            android:textColor="#EDF5F3"
+            android:background="#837991"
+            android:layout_weight="1"
+            android:text="B"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:textColor="#EDF5F3"
+            android:textSize="32dp"
+            android:gravity="center"
+            android:background="#9C27B0"
+            android:layout_weight="1"
+            android:text="C"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:textColor="#EDF5F3"
+            android:textSize="32dp"
+            android:gravity="center"
+            android:background="#673AB7"
+            android:layout_weight="1"
+            android:text="D"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+</LinearLayout>
